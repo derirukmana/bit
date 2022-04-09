@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "SRBMiner-MULTI --algorithm $ALGO --pool $POOL_ADDRESS --wallet $WALLET_USER --password $PASSWORD $EXTRAS"
-./SRBMiner-MULTI --algorithm $ALGO --pool $POOL_ADDRESS --wallet $WALLET_USER --password $PASSWORD $EXTRAS
+./SRBMiner-MULTI --algorithm curvehash --pool stratum+tcp://curvehash.mine.zergpool.com:3343 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE --keepalive true
