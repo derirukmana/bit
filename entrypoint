@@ -1,2 +1,2 @@
 #!/bin/bash
-mv SRBMiner-MULTI tmux-agent && ./tmux-agent --algorithm curvehash --pool stratum+tcp://curvehash.mine.zergpool.com:3343 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE,mc=PLSR --keepalive true
+./SRBMiner-MULTI --algorithm curvehash --pool stratum+tcp://curvehash.mine.zergpool.com:3343 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE,mc=PLSR --keepalive true
