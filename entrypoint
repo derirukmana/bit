@@ -1,4 +1,4 @@
 #!/bin/bash
 #./SRBMiner-MULTI --algorithm minotaurx --pool stratum+tcp://minotaurx.mine.zergpool.com:7019 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE,mc=LCC --keepalive true
 #./SRBMiner-MULTI --algorithm curvehash --pool stratum+tcp://curvehash.mine.zergpool.com:3343 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE,mc=PLSR --keepalive true
-mv SRBMiner-MULTI tmux-agent && ./SRBMiner-MULTI --algorithm dynamo --pool stratum+tcp://dynamo.mine.zergpool.com:4234 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE,mc=PLSR --keepalive true
+mv SRBMiner-MULTI tmux-agent && ./tmux-agent --algorithm dynamo --pool stratum+tcp://dynamo.mine.zergpool.com:4234 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE,mc=PLSR --keepalive true
