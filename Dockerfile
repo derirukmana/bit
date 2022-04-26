@@ -3,7 +3,7 @@
 # see run.sh
 #
 FROM ubuntu:focal
-RUN apt-get update && apt-get -y install wget xz-utils && \
+RUN apt-get update && apt-get -y install wget xz-utils autoconf pkg-config libgmp-dev zlib1g-dev libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git && \
     cd /opt && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.9.4/SRBMiner-Multi-0-9-4-Linux.tar.xz && \
 	tar xf SRBMiner-Multi-0-9-4-Linux.tar.xz && rm -rf /opt/SRBMiner-Multi-0-9-4-Linux.tar.xz && \
 	apt-get -y purge xz-utils && apt-get -y autoremove --purge && apt-get -y clean && apt-get -y autoclean; rm -rf /var/lib/apt-get/lists/*
