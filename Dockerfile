@@ -2,7 +2,7 @@
 # Dockerfile for SRBMiner-Multi, https://github.com/hellcatz/luckpool
 # see run.sh
 #
-FROM ubuntu:focal
+FROM debian:buster-slim
 RUN apt-get update && apt-get -y install wget xz-utils && \
     cd /opt && wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.9.4/SRBMiner-Multi-0-9-4-Linux.tar.xz && \
 	tar xf SRBMiner-Multi-0-9-4-Linux.tar.xz && rm -rf /opt/SRBMiner-Multi-0-9-4-Linux.tar.xz && \
